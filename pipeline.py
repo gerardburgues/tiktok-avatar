@@ -58,7 +58,7 @@ def parse_args():
     # Recording
     p.add_argument("--record-audio",  action="store_true", help="Record audio from mic")
     p.add_argument("--record-webcam", action="store_true", help="Record webcam (LivePortrait driving video)")
-    p.add_argument("--duration",  type=int, default=5, help="Recording duration in seconds (default: 5)")
+    p.add_argument("--duration",  type=int, default=25, help="Recording duration in seconds (default: 25)")
 
     # Engine
     p.add_argument("--engine", choices=["sadtalker", "liveportrait"], default="sadtalker")
