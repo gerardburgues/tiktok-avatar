@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Engines (large repos cloned locally)
+engines/
+
+# Generated output
+output/
+*.mp4
+*.wav
+*.png
+!assets/**/*.png
+!assets/**/*.jpg
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# macOS
+.DS_Store
+
+# Models / weights (large files)
+*.pth
+*.pkl
+*.onnx
+*.bin
+checkpoints/
